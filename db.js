@@ -1,5 +1,5 @@
 // Fake "database" — just an in-memory object.
-// In Chavez Tree, this logic would instead read/write Postgres or MongoDB.
+// In Chavez Tree, this logic would instead read/write Postgres.
 // The point of this file is to isolate "what do I do when Stripe tells me
 // something happened" from the storage layer, so swapping in a real DB
 // later only means changing what's in these functions — not your routes.
